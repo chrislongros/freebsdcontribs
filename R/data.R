@@ -29,3 +29,32 @@
 #' @source Aggregated from public Phabricator user data at
 #'   \url{https://reviews.freebsd.org}
 "freebsd_contributors_daily"
+
+#' FreeBSD Daily Commit Activity (from git repository)
+#'
+#' Daily commit counts extracted from the cloned FreeBSD git repository.
+#' Covers every commit from 1993 to 2026 -- complete data, not limited
+#' by API quotas.
+#'
+#' @format A data frame with 11,882 rows and 3 variables:
+#' \describe{
+#'   \item{date}{Date, commit date}
+#'   \item{commits}{integer, commits that day}
+#'   \item{cumulative_commits}{integer, running total}
+#' }
+#' @source Cloned from \url{https://github.com/freebsd/freebsd-src}
+"freebsd_daily_commits"
+
+#' FreeBSD Daily New Committers (from git repository)
+#'
+#' Daily counts of authors making their first commit to FreeBSD.
+#' Extracted from the cloned git repository using anonymized author IDs.
+#'
+#' @format A data frame with 2,041 rows and 3 variables:
+#' \describe{
+#'   \item{date}{Date, date of first commit}
+#'   \item{new_authors}{integer, new committers that day}
+#'   \item{cumulative_authors}{integer, running total of unique committers}
+#' }
+#' @source Cloned from \url{https://github.com/freebsd/freebsd-src}
+"freebsd_daily_authors"

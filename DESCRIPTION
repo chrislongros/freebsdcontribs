@@ -1,13 +1,15 @@
 Package: freebsdcontribs
-Title: FreeBSD Phabricator Contributor Growth Statistics
+Title: FreeBSD Contributor and Commit Statistics
 Version: 0.1.0
 Authors@R:
     person("Christos", "Longros", , "chris.longros@gmail.com",
            role = c("aut", "cre"))
-Description: Aggregated monthly contributor signup statistics for the
-    FreeBSD Phabricator code review platform (reviews.freebsd.org).
-    Contains no personal data -- only monthly signup counts and
-    cumulative totals from November 2013 to March 2026.
+Description: Over 30 years of FreeBSD commit activity and contributor growth.
+    Includes daily commit counts and new committer data extracted from the
+    cloned git repository (1993-2026), plus Phabricator signup statistics
+    (2013-2026). Contains no personal data -- only aggregated counts.
+    Useful for time series analysis, growth modeling, and studying open
+    source community dynamics.
 License: CC0
 Encoding: UTF-8
 LazyData: true
