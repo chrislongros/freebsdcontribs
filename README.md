@@ -97,6 +97,24 @@ plot(freebsd_daily_authors$date, freebsd_daily_authors$cumulative_authors,
      main = "FreeBSD Committer Growth")
 ```
 
+## Plots
+
+![Cumulative Commits](plots/01_cumulative_commits.png)
+
+![Daily Commits Rolling Average](plots/03_daily_commits_rolling.png)
+
+![Cumulative Committers](plots/02_cumulative_committers.png)
+
+![Hour of Day](plots/04_hour_of_day.png)
+
+![Commit Heatmap](plots/05_commit_heatmap.png)
+
+![Signups vs Committers](plots/06_signups_vs_committers.png)
+
+![Annual Commits](plots/07_yearly_commits.png)
+
+![Daily Signups](plots/08_daily_signups.png)
+
 ## Sources
 
 - Git data: Cloned from [freebsd/freebsd-src](https://github.com/freebsd/freebsd-src)
