@@ -19,12 +19,23 @@ devtools::install_github("chrislongros/freebsdcontribs")
 
 | Dataset | Rows | Granularity | Source | What it measures |
 |---------|------|-------------|--------|------------------|
+| `freebsd_commits` | 953,162 | Per-commit | Git repo | Every commit with timestamp and author |
 | `freebsd_daily_commits` | 11,882 | Daily | Git repo | Commits per day |
 | `freebsd_daily_authors` | 2,041 | Daily | Git repo | First-time committers per day |
 | `freebsd_contributors` | 147 | Monthly | Phabricator | New signups per month |
 | `freebsd_contributors_daily` | 2,531 | Daily | Phabricator | New signups per day |
 
 ### From git repository (complete data)
+
+#### `freebsd_commits`
+
+Every individual FreeBSD commit with full timestamp (to the second) and
+anonymized author ID.
+
+| Column | Type | Description |
+|--------|------|-------------|
+| `timestamp` | POSIXct | Commit timestamp in UTC |
+| `author_id` | character | Anonymized 12-character author hash |
 
 #### `freebsd_daily_commits`
 

@@ -13,8 +13,10 @@ Description: Over 30 years of FreeBSD commit activity and contributor growth.
 License: CC0
 Encoding: UTF-8
 LazyData: true
+LazyDataCompression: xz
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Depends:
     R (>= 3.5.0)
-URL: https://reviews.freebsd.org
+URL: https://github.com/chrislongros/freebsdcontribs
+BugReports: https://github.com/chrislongros/freebsdcontribs/issues

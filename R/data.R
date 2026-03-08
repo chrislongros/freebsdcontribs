@@ -58,3 +58,18 @@
 #' }
 #' @source Cloned from \url{https://github.com/freebsd/freebsd-src}
 "freebsd_daily_authors"
+
+#' FreeBSD Individual Commit Timestamps (from git repository)
+#'
+#' Every FreeBSD commit with full timestamps (to the second) and
+#' anonymized author IDs. Extracted from the cloned git repository.
+#' Useful for sub-daily time series analysis and per-author commit
+#' frequency.
+#'
+#' @format A data frame with 953,162 rows and 2 variables:
+#' \describe{
+#'   \item{timestamp}{POSIXct, commit timestamp in UTC}
+#'   \item{author_id}{character, anonymized 12-character author hash}
+#' }
+#' @source Cloned from \url{https://github.com/freebsd/freebsd-src}
+"freebsd_commits"
