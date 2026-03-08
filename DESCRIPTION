@@ -1,0 +1,18 @@
+Package: freebsdcontribs
+Title: FreeBSD Phabricator Contributor Growth Statistics
+Version: 0.1.0
+Authors@R:
+    person("Christos", "Longros", , "chris.longros@gmail.com",
+           role = c("aut", "cre"))
+Description: Aggregated monthly contributor signup statistics for the
+    FreeBSD Phabricator code review platform (reviews.freebsd.org).
+    Contains no personal data -- only monthly signup counts and
+    cumulative totals from November 2013 to March 2026.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 3.5.0)
+URL: https://reviews.freebsd.org
